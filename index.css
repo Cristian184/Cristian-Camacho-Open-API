@@ -1,0 +1,62 @@
+/* General Styling for API */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #111;
+    color: #ffe81f;
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  /* Title Header Styling */
+  h1 {
+    font-size: 50px;
+  }
+  
+  /* Button Styling */
+  nav {
+    margin-bottom: 25px;
+  }
+  
+  button {
+    background-color: #ffe81f;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    color: #000;
+    font-weight: bold;
+    width: 200px;
+    text-align: center;
+  }
+  
+  /* Display Area Styling */
+  #display-area {
+    background-color: #222;
+    padding: 1.5rem;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: auto;
+    font-size: 1.2rem;
+  }
+  
+  /* Mobile Display */
+  @media (max-width: 600px) {
+    nav {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    button {
+      width: 100%;
+      margin: 5px 0;
+    }
+  
+    #display-area {
+      width: 100%;
+      font-size: 1rem;
+      padding: 1rem;
+    }
+  }
